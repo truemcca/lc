@@ -8,20 +8,30 @@ img {
 	max-width: 100%;
 }
 
+header{
+	background-color: black;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+}
+
 h1 {
   font-family: josefin-slab, serif;
   font-weight: 400;
   font-size: 3em;
   text-align: center;
+  color: white;
 }
 
 nav {
-	position: relative;
+	width:100%;
+	position: fixed;
 	text-align: center;
 	padding-bottom: 1em;
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 2em;
 }
+
 
 nav ul {
 	list-style: none;
@@ -35,58 +45,70 @@ nav ul li {
 /*	float: left;*/
 	padding-left: 1em;
 	padding-right: 2em;
+
 }
+
 
 body {
 	font-family: merriweather, serif;
 	font-weight: 400;
-	max-width: 75em;
-	width: 90%;
+	width: 100%;
 	margin-left:auto;
 	margin-right:auto;
 }
 
 .main {
-	width: 80%;
+	padding-top: 13%;
+	padding-bottom: 0;
+	width: 70%;
+	height: 400px;
 	float: left;
+	background-color: #A6A6A6;
+	margin: 0px;
 }
 
 .sidebar {
-	width: 18%;
-	float: left;
-	padding-left: 1em;
+	width: 10%;
+	height: 310px;
+	padding-top: 20%;
+	float: right;
+	background-color: gray;
+	margin:0px;
+
 }
 
 
-section > section {
-	width: 60%;
-	max-width: 27.8125em;
-	margin-left: auto;
-	margin-right: auto;
-	line-height: 1.5em;
-}
 
 section > section h1 {
 	font-size: 2em;
 }
 
 footer {
-	font-size: .8em;
-	border-top: 1px dotted #ccc;
-	margin-top: 2em;
-	padding-top: 2em;
-	padding-bottom: 5em;
+	height:20px;
+	width:100%;
+	position: fixed;
+	font-size: 1.2em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: black;
+}
+
+footer a:link {
+    color: yellow;
+    padding-left: 80%;
 }
 
 footer h1 {
 	font-family: merriweather, serif;
 	font-weight: 700;
 	font-size: 1em;
-	text-align: left;
 }
+
+
 
 footer p {
 	line-height: .5;
+
 }
 
 .clearfix:before,
